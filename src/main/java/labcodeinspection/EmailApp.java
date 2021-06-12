@@ -4,6 +4,13 @@ import java.util.Scanner;
 
 public class EmailApp {
 
+	private EmailApp(){}
+	
+	/**
+	*
+	*
+	* @author Joselyn Holguin
+	*/
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
@@ -23,4 +30,5 @@ public class EmailApp {
 		email.generateEmail();
 		email.showInfo();
 	}
+	
 }
